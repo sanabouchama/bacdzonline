@@ -1,0 +1,21 @@
+@import url("https://fonts.googleapis.com/css2?family=Cairo&display=swap");
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 19px 50px;
+  grid-auto-flow: dense;
+  color: white;
+  padding: 5%;
+  padding-right: 30%;
+}
+.item-style {
+  align-items: center;
+  text-align: center;
+}
+.text-style {
+  font-family: "Cairo", sans-serif;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: normal;
+}

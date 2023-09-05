@@ -1,0 +1,180 @@
+@import url("https://fonts.googleapis.com/css2?family=Cairo:wght@200;400;900&display=swap");
+.bar {
+  display: flex;
+  position: fixed;
+  width: 20%;
+  height: 100%;
+  background-image: url("../assets/img/student-bar-bg.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  left: 80%;
+
+  top: 0; /* Position the navbar at the top of the page */
+  overflow: hidden;
+}
+.inside-bar {
+  position: fixed;
+  margin-top: 118px;
+  margin-bottom: 117px;
+  margin-left: 61.6px;
+  margin-right: 62px;
+  align-items: center;
+  text-align: center;
+}
+.userpic-style {
+  width: 156.891px;
+  height: 148.471px;
+  background: white;
+  border-radius: 100px;
+}
+
+.text-style01 {
+  color: rgba(69, 22, 106, 1);
+  font-family: "Cairo", sans-serif;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: normal;
+  margin-top: 25.46px;
+}
+.text-style02 {
+  color: rgba(69, 22, 106, 1);
+  font-family: "Cairo", sans-serif;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-top: -21px;
+}
+
+.style01 {
+  width: 156px;
+  height: 2px;
+  border: 1px #45166a solid;
+  margin: 0 auto;
+}
+
+.button-style {
+  width: 156px;
+  height: 42px;
+  border-radius: 6px;
+  text-align: right;
+  font-family: "Cairo", sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: normal;
+  background-color: #9a1bad;
+  color: white;
+  margin-top: 23px;
+  border-color: rgba(239, 133, 255, 1);
+}
+.svgbooksquare {
+  width: 24px;
+  height: 24px;
+  margin-left: 8px;
+  margin-right: 17px;
+  stroke: #491ec4;
+}
+
+.svglogo2 {
+  width: 36px;
+  height: 43px;
+  margin-left: 2px;
+  margin-right: 11px;
+}
+.svglogo3 {
+  width: 32px;
+  height: 32px;
+  margin-left: 4px;
+  margin-right: 11px;
+}
+.svglogo4 {
+  width: 32px;
+  height: 32px;
+  margin-left: 4px;
+  margin-right: 11px;
+}
+.svglogo5 {
+  width: 13.835px;
+  height: 19.81px;
+  margin-left: 13px;
+  margin-right: 20px;
+}
+.svglogo6 {
+  width: 24.36px;
+  height: 24px;
+  margin-left: 6px;
+  margin-right: 11px;
+}
+.button-style2 {
+  width: 156px;
+  height: 42px;
+  border-radius: 6px;
+  text-align: right;
+  font-family: "Cairo", sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: normal;
+  color: #45166a;
+  margin-top: 23px;
+  border: none;
+  background: transparent;
+}
+
+.button-style2:focus {
+  border-color: white;
+  width: 156px;
+  height: 42px;
+  border-radius: 6px;
+  text-align: right;
+  font-family: "Cairo", sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: normal;
+  background-color: #9a1bad;
+  color: white;
+  margin-top: 23px;
+  border: 2px solid rgba(239, 133, 255, 1);
+}
+.button-style3 {
+  width: 200px;
+  height: 42px;
+  border-radius: 6px;
+  text-align: center;
+  font-family: "Cairo", sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: normal;
+  color: #45166a;
+  margin-top: 77.07px;
+  border: none;
+  background: transparent;
+}
+.camera-style {
+  position: relative;
+  width: 100%;
+  max-width: 400px;
+}
+.camera-style img {
+  width: 100%;
+  height: auto;
+}
+.camera-style .camera-bouton {
+  position: absolute;
+  top: 80%;
+  left: 52%;
+  transform: translate(-50%, -50%);
+  border: none;
+  text-align: center;
+  background-color: transparent;
+}
+
+.svglogo7 {
+  width: 55px;
+  height: 41px;
+}

@@ -1,0 +1,192 @@
+@import url("https://fonts.googleapis.com/css2?family=Cairo&display=swap");
+/*login*/
+.loginBackground {
+  height: 100vh;
+  background-image: url("../assets/img/logIn-bg.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+form.absolute {
+  border-radius: 16px;
+  position: absolute;
+  top: 183px;
+  right: 60px;
+  bottom: 138px;
+  width: 495px;
+  height: 703px;
+  border: 1px solid rgba(255, 255, 255, 2);
+  backdrop-filter: blur(10px);
+  color: white;
+  background: transparent;
+}
+form.absolute img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 17px;
+}
+.lightFont {
+  font-family: "Cairo", sans-serif;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px;
+  line-height: 26px;
+  margin-right: 34px;
+  margin-top: 29px;
+  text-align: right;
+  margin-bottom: 16px;
+}
+.strongFont {
+  margin-top: 20px;
+  color: #fff;
+  text-align: center;
+  font-family: "Cairo", sans-serif;
+  font-size: 23px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.two-buttn {
+  display: flex;
+  justify-content: center;
+}
+
+.input-style {
+  margin-top: 19px;
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  height: 57px;
+  width: 419px;
+  border-radius: 8px;
+  border-color: rgba(154, 27, 173, 1);
+  font-family: "Cairo", sans-serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.remember {
+  display: flex;
+  justify-content: space-between;
+  margin-right: 19px;
+}
+
+.button-style {
+  border-radius: 6px;
+  background-color: rgba(154, 27, 173, 1);
+  width: 169px;
+  height: 48px;
+  border-color: rgba(239, 133, 255, 1);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.svgappstore {
+  width: 122px;
+  height: 30.37px;
+  margin-bottom: 15px;
+}
+.svggoogleplay {
+  width: 104px;
+  height: 30.37px;
+  margin-bottom: 15px;
+}
+::placeholder {
+  /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: rgba(112, 35, 159, 1);
+  text-align: right;
+  margin-right: 10px;
+}
+.loginbutton-style {
+  border-radius: 8px;
+  background-color: rgba(154, 27, 173, 1);
+  width: 419px;
+  height: 55px;
+  border-color: rgba(239, 133, 255, 1);
+  color: white;
+  margin-top: 63px;
+  font-family: "Cairo", sans-serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.signinbutton-style {
+  border-radius: 8px;
+  background-color: transparent;
+  width: 419px;
+  height: 55px;
+  border-color: rgba(239, 133, 255, 1);
+  color: white;
+  font-family: "Cairo", sans-serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.lightFontlink {
+  font-family: "Cairo", sans-serif;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px;
+  text-align: right;
+  margin-left: 42px;
+}
+.lightFontlabel {
+  font-family: "Cairo", sans-serif;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px;
+  float: left;
+  margin-left: 42px;
+}
+
+/*singup*/
+.signUpBackground {
+  height: 100vh;
+  background-image: url("../assets/img/signUp-bg.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.signinbutton2-style {
+  margin-top: 17px;
+  border-radius: 8px;
+  background-color: rgba(154, 27, 173, 1);
+  width: 419px;
+  height: 55px;
+  border-color: rgba(239, 133, 255, 1);
+  color: white;
+  font-family: "Cairo", sans-serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+}
+.font-style {
+  height: 23px;
+  width: 262px;
+  border-radius: 8px;
+  border-color: rgba(154, 27, 173, 1);
+  font-family: "Cairo", sans-serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  margin: 20px;
+  margin-top: 30px;
+  margin-right: 5px;
+}
